@@ -5,7 +5,9 @@
 //Console.WriteLine(numberA);
 //Console.WriteLine (numberB);
 
-int numA = 3;
-int numB = 5;
+int numA = new Random().Next(1, 7);
+int numB = new Random().Next(1, 7);
 int sum = numA  + numB;
+Console.WriteLine(numA);
+Console.WriteLine(numB);
 Console.WriteLine(sum);
